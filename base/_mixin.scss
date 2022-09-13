@@ -1,0 +1,179 @@
+@mixin h2_item{
+    color: rgb(214, 219, 249);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px 5px yellow;
+    text-align: center;
+    font-size: 2.3rem;
+
+    text-decoration: underline rgb(68, 60, 60) 6px;
+}
+
+
+
+@mixin h3{
+    color: rgb(247, 251, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 1.2rem;
+
+}
+
+
+@mixin p{
+    color: rgb(218, 223, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-size: 20px;
+    
+
+}
+
+@mixin a {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+    box-shadow: 1px 2px 4px 7px white;
+}
+
+@mixin box-shadow {
+    box-shadow: 4px 4px 6px 6px yellow;
+
+    height: 100%;
+    min-height: 450px;
+    width: 100%;
+    min-width: 320px;
+}
+
+@mixin imagen {
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+    height: 100%;
+    max-height: 250px;
+    width: 100%;
+    max-width: 400px;
+    transition: 0.5s;
+}
+
+@mixin imagen_queries900 {
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+    height: 100%;
+    max-height: 250px;
+    width: 100%;
+    max-width: 400px;
+    transition: 0.5s;
+}
+
+/*_________________________________*/
+
+@mixin a_queries {
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;  
+
+}
+
+
+@mixin p_queries{
+    color: rgb(239, 253, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+@mixin item_dimensions_queries2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+@mixin item_dimensions_queries {
+    width: 100%;
+    min-width: 400px;
+    height: 100%;
+    min-height: 400px;
+}
+
+
+
+/*_____________________________________*/
+
+@mixin h2_ejem {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: underline 4px;
+}
+
+@mixin dimensions_ejem {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 400px;
+}
+
+@mixin iframe_dimensions {
+    width: 100%;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+
+//________________
+
+@mixin precio_h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+@mixin precio_h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+@mixin precio_h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+@mixin precio_h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 4px 3px black;
+    margin: 4px;
+}
+
+@mixin precio_button {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    min-height: 50px;
+    min-width: 100px;
+    transition: 0.5s;
+}
+
+@mixin item_all_queries{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 600px;
+    margin: 10px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+
+@mixin item_all_queries_min {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 600px;
+    margin: 10px;
+    margin-top: 200px;
+    border-radius: 20px;
+}

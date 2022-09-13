@@ -1,0 +1,54 @@
+%h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+%label{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px 5px black;
+    font-size: 1.2rem;
+}
+
+%input{
+    box-shadow: 1px 1px 4px 3px black;
+}
+
+%img_logos{
+    width: 100%;
+    max-width: 100px;
+    box-shadow: 3px 2px 5px 3px red;
+}
+
+//_______________________
+%item_all{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 600px;
+    margin: 40px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+
+
+
+%item_precio_simple{
+    text-align: center;
+        box-shadow: 2px 2px 6px 4px black;
+        background-color: rgba(2, 248, 248, 0.342);
+}
+
+
+%item_precio_semi-pro{
+    text-align: center;
+        box-shadow: 2px 2px 6px 4px black;
+        background-color: rgba(247, 243, 9, 0.616);
+}
+
+
+%item_precio_profesional{
+    text-align: center;
+        box-shadow: 2px 2px 6px 4px black;
+        background-color: rgba(255, 136, 24, 0.76);
+}
